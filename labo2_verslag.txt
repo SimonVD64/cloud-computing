@@ -1,0 +1,17 @@
+build times
+29.7 - from scratch
+1.7 - al gecached
+2.3 - kleine aanpassing
+15.1 - kleine aanpassing maar copy eerder
+1.3 - na dockerignore
+100.8 - python eerste build
+8.3 -  python build
+22.8 - alpine python eerste build
+1.6 - alpine python build
+
+1: Docker kan de dependencies herbruiken ook al veranderd de applicatiecode, en kan daardoor sneller bouwen.
+2: Specifieert het huidige directory als info (dockerfile etc) om de container mee te bouwen.
+3: RUN wordt uitgevoerd tijdens het bouwen, CMD onmiddelijk erna.
+4: Ja
+5: Voorkomt dat pip cache bijhoud, om de image kleiner te houden.
+6: In de SQLite database in het filesysteem van de container.

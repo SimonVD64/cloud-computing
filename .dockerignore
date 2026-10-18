@@ -1,0 +1,9 @@
+.git
+.gitignore
+.dockerignore
+.env
+*.db
+__pycache__/
+*.py[cod]
+.venv/
+venv/
