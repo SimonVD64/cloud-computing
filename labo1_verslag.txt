@@ -1,0 +1,8 @@
+VRAGEN:
+1: De hello-world container voerde kort een programma uit, en stopt wanneer dit afgewerkt is. nginx daarentegen draait een continu proces, en blijft draaien zolang dit proces runt.
+2: De tweede keer was de image al gedownload, en moest dit dus niet opnieuw gebeuren.
+3: Containers, in vergelijking met volledige besturingssystemen, zijn gefocust om één proces uit te voeren, en zijn dus efficienter.
+4: Containers gebruiken de image waarmee ze zijn opgebouwd, niet die van de machine waar ze op draaien.
+5: Door twee containers te starten met verschillende namen (en hier op verschillende poorten).
+6: Docker stop rond een proces trager af, met de correcte processen om af te sluiten. Docker kill doet dit onmiddelijk, zonder dit te doen. (Equivalent aan een pc correct af te sluiten of de power-knop inhouden)
+7: Docker system df. Momenteel 4 MB.
